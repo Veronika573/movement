@@ -1,0 +1,74 @@
+html {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.rectangles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.big-rectangle {
+  overflow: hidden;
+  margin-top: 124px;
+  width: 1200px;
+  height: 600px;
+  background-color: blue;
+  position: absolute;
+  right: 50%;
+  -webkit-transform: translate(50%, 50%);
+          transform: translate(50%, 50%);
+}
+
+.small-rectangle {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.buttons-arrow {
+  margin-top: 720px;
+}
+
+.btn-top, .btn-left, .btn-down, .btn-right {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.btn-top:hover {
+  width: 48px;
+  height: 48px;
+}
+
+.btn-left:hover {
+  width: 48px;
+  height: 48px;
+}
+
+.btn-down:hover {
+  width: 48px;
+  height: 48px;
+}
+
+.btn-right:hover {
+  width: 48px;
+  height: 48px;
+}
+
+.up-arrow {
+  margin-left: 70px;
+  margin-bottom: 4px;
+}
+/*# sourceMappingURL=main.css.map */
